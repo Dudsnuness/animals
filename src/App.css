@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-image: url('./assets/gato.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+ 
+.titulo_cadastrar {
+  font-family: 'Rubik', sans-serif;
+}
+ 
+.app {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}
+ 
+.listaTarefas {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(249,246,244);
+}
+.tarefa {
+  background-color: #e1e1e1;
+  padding: 10px;
+  border: 1px solid #000 ;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.acoes {
+  width: 100px;
+  padding: 5px;
+  background-color: rgb(147, 147, 147);
+}
+ 
+.botaoProcura {
+  width: 80px;
+  background-color: #6dd2ed;
+  color: #fff;
+  padding: 5px;
+}
+.botaoEncontrado {
+  width: 90px;
+  background-color: #f885d9;
+  color: #fff;
+  padding: 5px;
+ 
+}
+.cadastrar {
+  background-color:#e3dfdf;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.cadastrar input {
+  width: 100%;
+  margin-right: 10px;
+  padding: 20px;
+  border: 10px;
+  border-radius: 5px;
+ 
+}
+.botaoCadastro {
+  text-align: center;
+  width: 80px;
+  background-color: #094D50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+ 
+form {
+  display: flex;
+  width: 100%;
+}
+ 
+.filtrar {
+  background-color:#e3dfdf;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.filtrar input {
+  width: 100%;
+  margin-right: 10px;
+  padding: 20px;
+  border: 10px;
+  border-radius: 5px;
+}
+ 
+.filtrar select {
+  width: 100%;
+  margin-right: 10px;
+  padding: 20px;
+  border: 10px;
+  border-radius: 5px;
+}
+ 
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+ 
+.imagem{
+  height: 20px;
+}
+ 
+#imagem{
+  height: 20px;
+}
